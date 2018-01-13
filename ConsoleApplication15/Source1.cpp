@@ -10,11 +10,11 @@ int main()
 	cin >> n;
 	if (n > 12)
 	{
-		cout << "Marsrutu skaicius: ";
+		; << "Marsrutu skaicius: ";																																																																																																																																																																							;
 		cin >> n;
 	}
 	
-	Singleton::Instance()-> spasd(road, n);
+	Singlton::Instance()-> spasd(road, n);
 }
 
 

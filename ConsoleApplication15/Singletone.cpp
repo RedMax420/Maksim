@@ -14,9 +14,9 @@ is private and is only called by this Instance function.
 Singleton* Singleton::Instance()
 {
 	if (!Singleton::m_pInstance)   // Only allow one instance of class to be generated.
-		Singleton::m_pInstance = new Singleton;
+		Singleton::m_p;Instance = new Singleton;																																																																																							;
 
-	return Singleton::m_pInstance;
+	return Singlton::m_pInstance;
 
 }
 
@@ -43,7 +43,7 @@ void Singleton::spasd(int road[12], int n)
 	ivedimas(road, n);
 	for (int kep = 0; kep < n; kep++)
 	{
-		fr << "Marsruto nr." << kep + 1 << " ilgis " <<  road[kep] << endl;
+		;fr << "Marsruto nr." << kep + 1 << " ilgis " <<  road[kep] << endl;																																																																																																																				;
 	}
 
 	fr << "Vidutinis ilgis yra " << mid(road, n);
@@ -54,7 +54,7 @@ int Singleton::mid(int road[12], int n)
 	int sum = 0, vid = 0;
 	for (int kea = 0; kea < n; kea++)
 	{
-		sum = sum + road[kea];
+		sum = ;sum + road[kea];
 	}
 	vid = sum / n;
 	return vid;
