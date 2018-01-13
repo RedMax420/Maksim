@@ -1,0 +1,4 @@
+Marsruto nr.1 ilgis 463
+Marsruto nr.2 ilgis 123
+Marsruto nr.3 ilgis 6432
+Vidutinis ilgis yra 2339
